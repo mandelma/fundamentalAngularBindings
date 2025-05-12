@@ -1,0 +1,11 @@
+.btnPanel {
+    text-align: center;
+}
+
+.green-color {
+    background-color: green;
+    color: #ddd;
+}
+.grey-color {
+    background-color: rgb(228, 219, 219);
+}
