@@ -1,5 +1,6 @@
 <div class="btnPanel">
     <h2> {{header}} </h2>
-    <button (click) = "changeColor()" [ngClass] = "{'green-color': toggle , 'grey-color': !toggle}">Painaa</button>
+    <button (click) = "changeColor()" [ngClass] = "{'green-color': !toggle , 'grey-color': toggle}">Painaa</button>
+    <p> {{note}} </p>
 </div>
 

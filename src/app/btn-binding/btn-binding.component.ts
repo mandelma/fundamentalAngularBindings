@@ -8,9 +8,12 @@ import { CommonModule } from '@angular/common';
   styleUrl: './btn-binding.component.css'
 })
 export class BtnBindingComponent {
-  header = 'Button page'
-  toggle = true
+  header = 'Button page';
+  note: string = "";
+  toggle: boolean = true;
   changeColor = () => {
     this.toggle = !this.toggle;
+    this.note = this.toggle ? '' : 'Olet painanut nappia!'
   } 
+  
 }
