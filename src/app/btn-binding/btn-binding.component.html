@@ -1,6 +1,8 @@
 <div class="btnPanel">
     <h2> {{header}} </h2>
     <button (click) = "changeColor()" [ngClass] = "{'green-color': !toggle , 'grey-color': toggle}">Painaa</button>
-    <p> {{note}} </p>
+    <p> {{line}} </p>
+    <input *ngIf="!toggle" [(ngModel)] = "line" name="line"/>
+
 </div>
 

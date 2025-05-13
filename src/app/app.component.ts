@@ -12,4 +12,5 @@ import { BtnBindingComponent } from './btn-binding/btn-binding.component';
 export class AppComponent {
   title = 'Button binding';
   body = 'Lisätään toinen component napilla'
+  
 }
